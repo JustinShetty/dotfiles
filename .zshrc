@@ -105,6 +105,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export EDITOR=vim
+
 alias c=clear
 alias cl=clear
 alias claer=clear
@@ -120,14 +122,3 @@ alias please='sudo $(fc -ln -1)'
 alias t=tree
 alias sv='source venv/bin/activate'
 alias dv=deactivate
-
-# Added by build_setup.sh:
-export PATH=$PATH:/home/justin/tools/bin
-# Added by build_setup.sh:
-export PATH=$PATH:/home/justin/tools/bin
-# Added by build_setup.sh:
-export PATH=$PATH:/home/justin/tools/arcanist/arcanist/bin
-
-export EDITOR=vim
-
-cd ~/devel/
